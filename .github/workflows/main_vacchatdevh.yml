@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'vacchatdevh'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_22F726DC2EFE48C9B9939BE965E731DF }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4375A6AE057C46EC96F0C37BADE73C35 }}
