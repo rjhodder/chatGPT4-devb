@@ -286,8 +286,7 @@ module docPrepResources 'docprep.bicep' = {
     formRecognizerSkuName: !empty(formRecognizerSkuName) ? formRecognizerSkuName : 'S0'
   }
 }
-//output AZURE_LOCATION string = location
-output AZURE_LOCATION string = "Canada East"
+output AZURE_LOCATION string = location
 output AZURE_TENANT_ID string = tenant().tenantId
 output AZURE_RESOURCE_GROUP string = resourceGroup.name
 
